@@ -7,9 +7,9 @@ function Navigation() {
         <Navbar bg="light" variant="light" sticky="top">
             <Navbar.Brand href="/">Liam Stewart</Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/Work">Work</Nav.Link>
-                    <Nav.Link href="/About">About</Nav.Link>
+                    <Nav.Link href="#/">Home</Nav.Link>
+                    <Nav.Link href="#/Work">Work</Nav.Link>
+                    <Nav.Link href="#/About">About</Nav.Link>
                 </Nav>
         </Navbar>
     );
