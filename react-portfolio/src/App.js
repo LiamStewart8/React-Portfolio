@@ -9,7 +9,7 @@ import About from './Pages/About';
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Navigation />
         <Route exact path='/' component={Home}/>
         <Route exact path='/Work' component={Work}/>
