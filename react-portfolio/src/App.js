@@ -11,9 +11,9 @@ function App() {
     <div>
       <Router basename={process.env.PUBLIC_URL}>
         <Navigation />
-        <Route exact path='#/' component={Home}/>
-        <Route exact path='#/Work' component={Work}/>
-        <Route exact path='#/About' component={About}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/Work' component={Work}/>
+        <Route exact path='/About' component={About}/>
         <Footer />
       </Router>
     </div>
