@@ -8,15 +8,15 @@ import About from './Pages/About';
 
 function App() {
   return (
+    <Router basename="/Liam-Stewart-Portfolio">
     <div>
-      <Router basename="/Liam-Stewart-Portfolio">
         <Navigation />
         <Route exact path='/' component={Home}/>
         <Route exact path='/Work' component={Work}/>
         <Route exact path='/About' component={About}/>
         <Footer />
-      </Router>
     </div>
+    </Router>
   );
 }
 
