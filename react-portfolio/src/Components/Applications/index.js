@@ -6,7 +6,7 @@ function ApplicationCard(props) {
     <Container>
         <CardGroup>
             <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={process.env.PUBLIC_URL + props.image} />
+                <Card.Img variant="top" src={props.image} />
                 <Card.Body>
                     <Card.Title>{props.title}</Card.Title>
                     <Card.Link href={props.github}>Github</Card.Link>

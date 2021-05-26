@@ -8,7 +8,7 @@ import About from './Pages/About';
 
 function App() {
   return (
-    <Router basename="/Liam-Stewart-Portfolio">
+    <Router>
     <div>
         <Navigation />
         <Route exact path='/' component={Home}/>
